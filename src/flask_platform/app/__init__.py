@@ -7,3 +7,7 @@ try:
     __version__ = get_distribution(dist_name).version
 except DistributionNotFound:
     __version__ = 'unknown'
+
+from flask import Flask
+app = Flask(__name__)
+from app import views
