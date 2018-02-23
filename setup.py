@@ -11,7 +11,7 @@
 import sys
 from setuptools import setup
 
-# Add here console scripts and other entry points in ini-style format
+
 entry_points = {'console_scripts': ['comp_30670_flask_platform=flask_platform.run:run']}
 
 
